@@ -19,15 +19,13 @@ void func(int* p, int count)
 {
     int level = average(p, count);
 
-    setlocale(LC_ALL, "Russian");
-
     switch (level)
     {
-    case 5: std::printf("Отличник :))"); break;
-    case 4: std::printf("Хорошист :)"); break;
-    case 3: std::printf("Удовлетворительно :|"); break;
-    case 2: std::printf("Завалил сессию :("); break;
-    default: std::printf("Ошибка: нет такой оценки!");
+    case 5: std::printf("Otlichnik :))"); break;
+    case 4: std::printf("Horoshist :)"); break;
+    case 3: std::printf("Udovletvoritelno :|"); break;
+    case 2: std::printf("Zavalil sessiyu :("); break;
+    default: std::printf("Error!");
     }
 }
 
